@@ -33,7 +33,7 @@ For example:
 | 2 | ASTRID=MO10:00-12:00,TH12:00-14:00,SU20:00-21:00|The amount to pay ASTRID is: 85 USD|
 
 ## Solution Overview
-To perform this exercise I used the latets version of python (3.9).
+To perform this exercise I used the latest version of python (3.9).
 There are four components in this project:
 - **main file**: uses [argparse](https://docs.python.org/3/library/argparse.html#module-argparse) (command line parsing module) to read the input file from the command line and use it as parameter for the function that compute the amount to pay.
 - **payment_calc file**: this file contains four functions, three of them are used to calculate the amount to pay per hour, day and week; the fourth function is used to calculate the amount to pay per worked schedule of each line of the file.
@@ -53,7 +53,7 @@ The steps to solve the exercise where:
   - Find edge cases
   - Add fixes to the solution
   - Code
-  - Reapeat
+  - Repeat
 ## How to run
 ### First clone the project
 
