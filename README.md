@@ -43,5 +43,36 @@ There are four components in this project:
   - **time_parser file**: format hours
 - **test folder**: contains unit tests for the functions 
 ## Architecture
+![](architecture.png)
 ## Approach Methodology
+My approach to this exercise was to create a simple and clean code structured into files. Each function performs only one task with a consistent result (FP like)
+<br/>
+The steps to solve the exercise where:
+  - Read the problem and write down a solution on paper
+  - Analyze the solution
+  - Find edge cases
+  - Add fixes to the solution
+  - Code
+  - Reapeat
 ## How to run
+### First clone the project
+
+```bash
+git clone https://github.com/luisadriantt/paymentsACME
+cd paymentsACME
+```
+
+### Execute Application
+
+```bash
+python main.py --file <file_name>
+Using test file:
+python main.py --file work_info.txt
+```
+
+### Run Tests
+```bash
+cd test
+python <test_file>
+```
+
